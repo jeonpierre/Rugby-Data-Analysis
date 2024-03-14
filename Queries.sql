@@ -283,4 +283,42 @@ FROM six_nations
 GROUP BY winner, year,winner
 ORDER BY Year,WinsPerYearPercentage DESC;
 
--- 6. Team Win Rate per Stadium (If Multi stadiums)
+-- 6. Win rate per statium for each team. 
+
+    -- Create two temporary tables, one for Games at home and one for Wins at home.
+
+DROP TABLE IF EXISTS #temp_GamesAtHome
+CREATE TABLE #temp_GamesAtHome (
+Home_team nvarchar(50),
+Stadium nvarchar(50),
+GamesAtHome int)
+
+DROP TABLE IF EXISTS #temp_WinsAtHome
+CREATE TABLE #temp_WinsAtHome (
+Home_team nvarchar(50),
+Stadium nvarchar(50),
+WinsAtHome int)
+
+    -- Inserting the data from SixNationsData into the temporary tables.
+
+INSERT INTO #temp_GamesAtHome
+SELECT Home_team, Stadium, COUNT(Stadium) as GamesAtHome
+FROM SixNationsData
+GROUP BY Home_team, Stadium
+ORDER BY Home_team
+
+INSERT INTO #temp_WinsAtHome
+SELECT Home_team, Stadium, COUNT(Stadium)as WinsAtHome
+FROM SixNationsData
+WHERE HomeOrAwayWin = 'Home'
+GROUP BY Stadium, Home_team
+ORDER BY Home_team
+
+    -- Join the two temporary tables by the same stadium name, select the wanted columns and calculate the win rate per stadium.
+
+SELECT GAH.Home_team, GAH.Stadium, WinsAtHome, GamesAtHome,
+    (SELECT ROUND((WinsAtHome/CAST(GamesAtHome as float))*100, 2)) as Percentage
+FROM #temp_GamesAtHome GAH
+LEFT OUTER JOIN #temp_WinsAtHome WAH
+    ON GAH.Stadium = WAH.Stadium
+	
