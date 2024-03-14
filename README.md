@@ -18,8 +18,11 @@ After Profiling the data and recognising some errors in standardisation and dupl
 # Cleanining in Excel
 
 Firstly this involved removing the duplicates from the data with the inbuilt funcitons. 
+- TRIM & PROPER to standardise Text and Spacing
+- Find / Replace to remove special characters
+- Standardising Date format to YYY-MM-DD.
 
-2. 
+Additional Steps involved:
 
 
 # Cleanining in SQL
