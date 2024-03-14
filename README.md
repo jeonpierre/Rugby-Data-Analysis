@@ -39,3 +39,4 @@ See Queries.py for more detail.
 
 # Visualising Trends & Relationships
 
+- Intended to be Visualised in Power BI and Tableau, and will be linked in this Repo.
