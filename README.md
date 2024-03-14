@@ -17,11 +17,22 @@ After Profiling the data and recognising some errors in standardisation and dupl
 
 # Cleanining in Excel
 
+Firstly this involved removing the duplicates from the data with the inbuilt funcitons. 
+
+2. 
+
+
 # Cleanining in SQL
 
+See Queries.py for more detail.
+
+This involved standardising the Stadium Names, Competition Names, Creating a New Table and inserting data from the Rugby Union data set WHERE 'Six Nations' was the competition. 
+
+Other steps involved..
 
 # Querying the Dataset
 
+See Queries.py for more detail.
 
 # Visualising Trends & Relationships
 
