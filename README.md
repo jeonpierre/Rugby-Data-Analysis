@@ -1,5 +1,11 @@
 # Rugby-Data-Analysis
 
+# Structure
+- Initial DataSet from Kaggle is linked in this readme file
+- SQL Queries and Cleaning Steps are documented and available in the Repo (Queries.py)
+- Clean Excel dataset and SQL Temporary Tables are Avaialble in the uploaded Clean_Six_Nations. excel file available in the Repo. This will be used for Tableau and Power BI visualisations.
+- Visualisations currently available under the Rugby_visualisations.pbix file in this GitHub repo, although remains unfinished and will be supplemented with Tableau Visualisations. 
+
 # Intention
 The Intention behind this project is to Analyse some Rugby Union Data. 
 Specifically to clean, query / analyse and visualise data behind Six Nations Campaigns from the Year 2000-2023.
