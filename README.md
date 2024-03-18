@@ -2,6 +2,7 @@
 
 # Structure
 - Initial DataSet from Kaggle is linked in this readme file
+- Set up GitHub Repository and connection with VSCode to Remote Push Files and Updates to the Repository for this project and maintain source control. 
 - SQL Queries and Cleaning Steps are documented and available in the Repo (Queries.py)
 - Clean Excel dataset and SQL Temporary Tables are Avaialble in the uploaded Clean_Six_Nations. excel file available in the Repo. This will be used for Tableau and Power BI visualisations.
 - Visualisations currently available under the Rugby_visualisations.pbix file in this GitHub repo, although remains unfinished and will be supplemented with Tableau Visualisations. 
@@ -26,7 +27,7 @@ After Profiling the data and recognising some errors in standardisation and dupl
 Firstly this involved removing the duplicates from the data with the inbuilt funcitons. 
 - TRIM & PROPER to standardise Text and Spacing
 - Find / Replace to remove special characters
-- Standardising Date format to YYY-MM-DD.
+- Standardising Date format to YYYY-MM-DD.
 
 Additional Steps involved:
 
@@ -65,7 +66,7 @@ Techniques used:
 - DAX: SUM, COUNT, SUMX, AVERAGE,
 - Data Moddeling, Bridging new connections, Cardinality and Cross Filter Direction between 7 Different Tables.
 - Created New Columns, Dropped Columns
-- Change Data-Types
+- Changed Data-Types
 - Created New Measures and Calculated Columns
   
 
