@@ -47,12 +47,25 @@ See Queries.py for more detail.
 
 - Intended to be Visualised in Power BI and Tableau, and will be linked in this Repo.
 
-Power BI:
+Power BI Interactive Report:
 What I Visualised:
+
+Overview of the Six Nations 
+Total Wins for Each Nation, with Drill Down for Home vs Away Record.
+Home vs. Away Wins for Each Nation
+Win Percentage by Year for Each nation
+Total Home Scores
+Total Away Scores
+Average Points Difference by Year (Filtered with Slider)
+Points Difference for Winner (Filtered with Slider)
+Nation Performance by Location / Stadium (Drill down for City)
 
 
 Techniques used:
-- DAX:
+- DAX: SUM, COUNT, SUMX, AVERAGE,
+- Data Moddeling, Bridging new connections, Cardinality and Cross Filter Direction between 7 Different Tables.
+- Created New Columns, Dropped Columns
+- Change Data-Types
+- Created New Measures and Calculated Columns
+  
 
-- Created New Columns
-- Change Data-Types.
