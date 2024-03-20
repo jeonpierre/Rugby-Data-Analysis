@@ -9,7 +9,7 @@
 
 # Intention
 The Intention behind this project is to Analyse some Rugby Union Data. 
-Specifically to clean, query / analyse and visualise data behind Six Nations Campaigns from the Year 2000-2023.
+Specifically to clean, query / analyse and visualise data behind Six Nations Campaigns from the Year 2000-2023. Then to draw some conclusions if applicable and construct a data driven story in PowerPoint including findings. 
 
 # The Data
 The Data was obtained from a Kaggle Dataset - https://www.kaggle.com/datasets/lylebegbie/international-rugby-union-results-from-18712022
