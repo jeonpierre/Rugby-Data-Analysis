@@ -5,7 +5,7 @@
 - Set up GitHub Repository and connection with VSCode to Remote Push Files and Updates to the Repository for this project and maintain source control. 
 - SQL Queries and Cleaning Steps are documented and available in the Repo (Queries.py)
 - Clean Excel dataset and SQL Temporary Tables are Avaialble in the uploaded Clean_Six_Nations. excel file available in the Repo. This will be used for Tableau and Power BI visualisations.
-- Visualisations currently available under the Rugby_visualisations.pbix file in this GitHub repo, although remains unfinished and will be supplemented with Tableau Visualisations. 
+- Visualisations currently available under the Rugby_visualisations.pbix file, and Tableau_Rugby_Visualisations file in this GitHub repo.
 
 # Intention
 The Intention behind this project is to Analyse some Rugby Union Data. 
@@ -29,20 +29,23 @@ Firstly this involved removing the duplicates from the data with the inbuilt fun
 - Find / Replace to remove special characters
 - Standardising Date format to YYYY-MM-DD.
 
-Additional Steps involved:
-
-
 # Cleanining in SQL
 
 See Queries.py for more detail.
 
 This involved standardising the Stadium Names, Competition Names, Creating a New Table and inserting data from the Rugby Union data set WHERE 'Six Nations' was the competition. 
 
-Other steps involved..
-
 # Querying the Dataset
+This Involved:
+- 1. Count Home Wins vs. Count Away Wins 
+- 2. Biggest Points Difference - Home and Away Win 
+- 3. Total Score (Trends over Time?)
+- 4. Home & Away Wins Grouped by Nation 
+- 5. Team Win Rate / %, Per Year 
+- 6. Team Win Rate per Stadium (If Multi stadiums)
 
 See Queries.py for more detail.
+
 
 # Visualising Trends & Relationships
 
@@ -58,15 +61,23 @@ Win Percentage by Year for Each nation
 Total Home Scores
 Total Away Scores
 Average Points Difference by Year (Filtered with Slider)
-Points Difference for Winner (Filtered with Slider)
+Points Difference for Winner (Filtered with a Slider)
 Nation Performance by Location / Stadium (Drill down for City)
 
 
 Techniques used:
-- DAX: SUM, COUNT, SUMX, AVERAGE,
+- DAX: SUM, COUNT, SUMX, AVERAGE
 - Data Moddeling, Bridging new connections, Cardinality and Cross Filter Direction between 7 Different Tables.
 - Created New Columns, Dropped Columns
 - Changed Data-Types
 - Created New Measures and Calculated Columns
+
+Tableau Report:
+What I Visualised:
+- Stadium Points Difference Average
+- Stadium Volume (Count of Games Played at Each Stadium)
+- Home & Away Points Difference contextualised by the Home Team and Away Team.
+
+
   
 
