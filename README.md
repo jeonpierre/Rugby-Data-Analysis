@@ -6,6 +6,7 @@
 - SQL Queries and Cleaning Steps are documented and available in the Repo (Queries.py)
 - Clean Excel dataset and SQL Temporary Tables are Avaialble in the uploaded Clean_Six_Nations. excel file available in the Repo. This will be used for Tableau and Power BI visualisations.
 - Visualisations currently available under the Rugby_visualisations.pbix file, and Tableau_Rugby_Visualisations file in this GitHub repo.
+- Construction of a Short Presentation / Story hi-lighting some of the insights gained.
 
 # Intention
 The Intention behind this project is to Analyse some Rugby Union Data. 
