@@ -8,6 +8,14 @@
 - Visualisations currently available under the Rugby_visualisations.pbix file, and Tableau_Rugby_Visualisations file in this GitHub repo.
 - Construction of a Short Presentation / Story hi-lighting some of the insights gained.
 
+# Tools Used
+- Microsoft Excel
+- Power Query
+- Tableau
+- Power BI
+- SQL
+- VSCode
+
 # Intention
 The Intention behind this project is to Analyse some Rugby Union Data. 
 Specifically to clean, query / analyse and visualise data behind Six Nations Campaigns from the Year 2000-2023. Then to draw some conclusions if applicable and construct a data driven story in PowerPoint including findings. 
